@@ -1,6 +1,6 @@
 import React from "react";
-import Frame1 from '../../assets/images/Frame1.png';
-import classes from './Services.module.css';
+import Frame1 from '../../../assets/images/Frame1.png';
+
 
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import LifeFrame3 from '../../assets/images/lifeEtTykans/LifeFrame3.png';
+import LifeFrame3 from '../../../assets/images/lifeEtTykans/LifeFrame3.png';
 import classes from './LifeThirdPart.module.css';
 import LifeCelebrate from "../LifeCelebrate/LifeCelebrate";
 

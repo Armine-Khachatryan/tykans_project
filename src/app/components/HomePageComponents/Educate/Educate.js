@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Educate.module.css';
-import EducateBigCircle from "../../assets/images/bigCircles/Educate_Big_Circle.png";
-import BlueBook from "../../assets/images/bookIcons/BlueBook.png";
+import EducateBigCircle from "../../../assets/images/bigCircles/Educate_Big_Circle.png";
+import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 
 
 
@@ -9,7 +9,7 @@ function Educate() {
 
     return(
         <>
-            <div className="container">
+            <div className="container"  id="educate">
                 <div className={classes.educationWhole}>
                     <div className={classes.leftPartEducation}>
                         <div className={classes.titleEducation}>Educate</div>

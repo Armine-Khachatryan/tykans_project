@@ -1,0 +1,64 @@
+.seventhWhole{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.seventhMain{
+    display: flex;
+}
+.seventhLeftRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seventhLeftRight:last-child{
+    margin-left: 140px;
+}
+
+.seventhImgDiv{
+    margin-bottom: 64px;
+    max-width: 450px;
+    width: 100%;
+    height: 450px;
+}
+
+.seventhImg{
+    border-radius: 360px;
+}
+
+.seventhText{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 64px;
+    max-width: 496px;
+    width: 100%;
+    min-height: 144px;
+    text-align: center;
+}
+
+.redBtn{
+    /*padding: 21px 153px;*/
+    padding-top: 21px;
+    padding-bottom: 21px;
+    min-width: 412px;
+    background-color:  #92374D;
+    border-radius: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    border: none;
+    margin-top:35px
+}

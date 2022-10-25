@@ -1,0 +1,65 @@
+.fourthPartWhole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourthPartTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #92374D;
+    margin-bottom: 16px;
+    margin-top: 100px;
+}
+
+.fourthPartSubtitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #16145F;
+    margin-bottom: 160px;
+}
+
+.offersDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 147px;
+    padding-right: 147px;
+    flex-wrap: wrap
+}
+
+
+.offersWhole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin-bottom: 120px;
+}
+
+.offersImgDiv{
+    max-width: 450px;
+    width: 100%;
+    height: 450px;
+}
+
+.offersImg{
+    border-radius: 360px;
+    /*height: 100%;*/
+}
+
+.offersText{
+    margin-top: 64px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #16145F;
+}

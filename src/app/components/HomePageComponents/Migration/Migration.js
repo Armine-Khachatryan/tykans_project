@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import MigrateBigCircle from "../../assets/images/bigCircles/Migrate_Big_Circle.png";
-import BlueBook from "../../assets/images/bookIcons/BlueBook.png";
+import MigrateBigCircle from "../../../assets/images/bigCircles/Migrate_Big_Circle.png";
+import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 import classes from './Migration.module.css';
-import MigrateModal from "../MigrateModal/MigrateModal";
+import MigrateModal from "../../MigrateModal/MigrateModal";
 
 
 
@@ -20,7 +20,7 @@ function Migration() {
 
     return(
         <>
-            <div className={classes.migrationWhole}>
+            <div className={classes.migrationWhole}  id="migrate">
                 <div className={classes.leftPartMigration}>
                     <img className="circleBig" src={MigrateBigCircle}/>
                 </div>

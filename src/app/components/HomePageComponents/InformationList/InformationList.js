@@ -1,9 +1,9 @@
 import React from "react";
-import ImgInfo1 from '../../assets/images/ImgInfo1.png';
-import ImgInfo2 from '../../assets/images/ImgInfo2.png';
-import ImgInfo3 from '../../assets/images/ImgInfo3.png';
+import ImgInfo1 from '../../../assets/images/ImgInfo1.png';
+import ImgInfo2 from '../../../assets/images/ImgInfo2.png';
+import ImgInfo3 from '../../../assets/images/ImgInfo3.png';
 import classes from './InformationList.module.css';
-import BlueBook from "../../assets/images/bookIcons/BlueBook.png";
+import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 
 
 

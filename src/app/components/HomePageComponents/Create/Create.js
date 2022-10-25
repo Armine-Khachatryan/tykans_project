@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Create.module.css';
-import CreateBigCircle from "../../assets/images/bigCircles/Create_Big_Circle.png";
-import BlueBook from "../../assets/images/bookIcons/BlueBook.png";
+import CreateBigCircle from "../../../assets/images/bigCircles/Create_Big_Circle.png";
+import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 
 
 
@@ -10,7 +10,7 @@ function Create() {
 
     return(
         <>
-            <div className="container">
+            <div className="container" id="create">
                 <div className={classes.createWhole}>
                     <div className={classes.leftPartCreate}>
                         <img className="circleBig" src={CreateBigCircle}/>

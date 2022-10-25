@@ -1,7 +1,7 @@
 import React from "react";
-import Hands from '../../assets/images/Hands.png';
+import Hands from '../../../assets/images/Hands.png';
 import classes from './Partners.module.css';
-import Button from "../../UI/Button/Button";
+import Button from "../../../UI/Button/Button";
 
 
 

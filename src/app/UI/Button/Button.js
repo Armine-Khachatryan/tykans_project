@@ -1,9 +1,9 @@
 import React from "react";
-import classes from './YellowButton.module.css';
+import classes from './Button.module.css';
 
 
 
-function YellowButton (props) {
+function Button (props) {
     return(
         <button className={classes.yellowButton}
                 style={{background: props.color}}
@@ -16,4 +16,4 @@ function YellowButton (props) {
 }
 
 
-export default YellowButton;
+export default Button;

@@ -1,38 +1,273 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+    max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background-color: #F5F5F5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html{
+    scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+    max-width: 1720px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.containerInside{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 204px;
 }
+
+.subTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #16145F;
+    margin-bottom: 32px;
+}
+
+.circleBig{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.spaceNoWrap{
+    white-space: nowrap;
+}
+
+.textStyle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom: 24px;
+}
+
+.readMore{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #16145F;
+    cursor: pointer;
+}
+
+.buttonsDiv{
+    display: flex;
+}
+
+
+.firstBtn{
+    margin-right: 24px;
+}
+
+.blueBookImg{
+    margin-right: 10px;
+}
+
+.somePadding{
+    padding-left:40px;
+    justify-content: flex-start;
+}
+
+.leftAlign{
+    justify-content: flex-start;
+}
+
+
+.part1BackImg{
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.part1BackImg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.titleServices {
+    cursor: pointer;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-self: flex-end;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #EAB531;
+    padding-bottom: 16px;
+    border-bottom: 6px solid #FFFFFF;
+    z-index:1
+}
+
+.redTitle{
+    color: #92374D
+}
+
+.teamMemberOne{
+    background: #FFFFFF;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teamMemberOne:nth-child(even){
+    background: #F0EFFF;
+}
+
+
+.teamMemberOne:nth-child(even) svg path {
+    fill:#92374D;
+}
+
+.memberInfoMiddlePart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamMemberOne:nth-child(even) .memberInfoMiddlePart{
+    flex-direction: row-reverse;
+}
+
+.teamMemberOne:nth-child(odd) .memberProfileInfo{
+    margin-right: 60px;
+}
+
+
+.teamMemberOne:nth-child(even) .memberInfo{
+    margin-right: 60px;
+}
+
+.memberProfileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memberPhotoDiv{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 8px;
+}
+
+.memberPhoto{
+    border-radius: 100%;
+    height: 100%;
+}
+
+
+.memberName{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #B96118;
+}
+
+.teamMemberOne:nth-child(even) .memberName:nth-child(even){
+    color: #92374D;
+}
+
+.memberPosition{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+}
+
+.memberInfo{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #16145F;
+    max-width: 1174px;
+    width: 100%;
+}
+
+.alignRightMember{
+    display: flex;
+    align-self: flex-end;
+}
+
+
+@font-face {
+    font-family: Effra_Trial_Light;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Lt.ttf);
+}
+
+
+@font-face {
+    font-family: Effra_Trial_Regular;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Rg.ttf);
+}
+
+@font-face {
+    font-family: Effra_Trial_Medium;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Md.ttf);
+}
+
+
+@font-face {
+    font-family: Effra_Trial_Bold;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Bd.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Light;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Light.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Regular;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Medium;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Bold;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Bold.ttf);
+}
+
+

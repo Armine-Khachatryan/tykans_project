@@ -1,8 +1,7 @@
 import React from "react";
 import classes from './Integration.module.css';
-import IntegrateBigCircle from "../../assets/images/bigCircles/Integrate_Big_Circle.png";
-// import C from '../../assets/images/careers/Careers1.png';
-import BlueBook from "../../assets/images/bookIcons/BlueBook.png";
+import IntegrateBigCircle from "../../../assets/images/bigCircles/Integrate_Big_Circle.png";
+import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 
 
 
@@ -14,7 +13,7 @@ function Integration() {
 
     return(
         <>
-            <div className="container">
+            <div className="container" id="integrate">
                 <div className={classes.integrationWhole}>
                     <div className={classes.leftPartIntegration}>
                         <div className={classes.titleIntegrate}>Integrate</div>

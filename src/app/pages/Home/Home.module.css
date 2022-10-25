@@ -1,0 +1,148 @@
+.backgroundBlue{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-position: bottom;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1121px;
+}
+
+.LeftPartInnovation{
+    max-width: 748px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.titleInnovation{
+    white-space: nowrap;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #F9F9F9;
+    margin-top: 170px;
+}
+
+.titleInnovation:last-child{
+    margin-top: 0
+}
+
+.textInnovation{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.rightPartInnovation{
+    margin-right: 225px;
+    margin-left: 219px;
+    position: relative;
+    width: 683px;
+    height: 637px;
+    min-width: 683px;
+    min-height: 637px;
+    display: flex;
+}
+
+.createImgDiv{
+    width: 200px;
+    height: 200px;
+    top: 99px;
+    left: 242px;
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.createImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.educateImgDiv{
+    position: absolute;
+    top: 281px;
+    margin-right: 42px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.educateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.migrateImgDiv{
+    position: absolute;
+    top: 331px;
+    left: 242px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.migrateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.automateImgDiv{
+    position: absolute;
+    top: 274px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.automateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.operateImgDiv{
+    position: absolute;
+    top: 520px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.operateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.integrateImgDiv{
+    position: absolute;
+    top: 520px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.integrateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.integrationDiv{
+    margin-top: 10px;
+}

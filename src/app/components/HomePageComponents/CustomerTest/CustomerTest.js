@@ -1,5 +1,5 @@
 import React from "react";
-import Swiper from "../HomePageComponents/Swiper/Swiper";
+import Swiper from "../Swiper/Swiper";
 import classes from './CustomerTest.module.css';
 
 

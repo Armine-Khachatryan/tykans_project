@@ -1,0 +1,86 @@
+.wholeMembers{
+    padding: 0px 100px 100px 100px;
+    background-color: #16145F;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.memberInfo{
+    display: flex;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+}
+
+.personIfo{
+    margin-left: 118px;
+    margin-right: 62px;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.personName{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #B96118;
+}
+
+.personPosition{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #B96118;
+    white-space: nowrap;
+}
+
+.textAndButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.textInfo{
+    min-height: 290px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F9F9F9;
+}
+
+.firstButton{
+    margin-right: 24px;
+}
+
+.buttonsLife{
+    display: flex;
+    margin-top: 24px;
+}
+
+.upComa{
+    width: 80px;
+    height: 80px;
+}
+
+.downComa{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.dots{
+    font-size: 60px;
+    margin-top: 0;
+    color: white;
+}

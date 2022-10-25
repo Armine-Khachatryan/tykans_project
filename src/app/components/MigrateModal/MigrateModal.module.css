@@ -1,0 +1,77 @@
+.modalInside{
+    display: flex;
+    flex-direction: column;
+}
+
+.closingModal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.closeWord{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #939393;
+    margin-left: 8px;
+}
+
+.modalTitleGroup{
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.modalTitles{
+    margin-left: 40px;
+}
+
+.modalTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #92374D;
+    margin-bottom: 4px;
+}
+
+.modalSubTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16145F;
+    white-space: nowrap;
+}
+.modalLi{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #24205B;
+    margin-bottom: 32px;
+}
+
+.modalBtn{
+    display: flex;
+    align-self: flex-start;
+    padding: 21px 32px;
+    margin-top: 15px;
+    background: #92374D;
+    border-radius: 360px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}

@@ -1,7 +1,5 @@
 .teamTestBackImg{
-    /*position: relative;*/
     display: flex;
-    /*z-index: 1;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,8 +13,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 0, 100% 39%, 100% 100%, 0% 100%);
-    /*position: absolute;*/
-    /*z-index: 4000;*/
 }
 .photoTeamTest::after{
     content: "";

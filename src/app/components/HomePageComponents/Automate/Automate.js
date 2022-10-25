@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Automate.module.css';
-import AutomateBigCircle from "../../assets/images/bigCircles/Automate_Big_Circle.png";
-import BlueBook from "../../assets/images/bookIcons/BlueBook.png";
+import AutomateBigCircle from "../../../assets/images/bigCircles/Automate_Big_Circle.png";
+import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 
 
 
@@ -10,7 +10,7 @@ function Automate() {
 
     return (
         <>
-            <div className="container">
+            <div className="container"  id="automate">
                 <div className={classes.automateWhole}>
                     <div className={classes.leftPartAutomate}>
                         <div className={classes.titleAutomate}>Automate</div>

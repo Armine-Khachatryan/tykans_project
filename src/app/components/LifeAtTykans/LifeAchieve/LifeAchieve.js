@@ -1,7 +1,6 @@
 import React from "react";
-import Achieve from '../../assets/images/lifeEtTykans/Achieve.png';
+import Achieve from '../../../assets/images/lifeEtTykans/Achieve.png';
 import classes from './LifeAchieve.module.css';
-import IntegrateBigCircle from "../../assets/images/bigCircles/Integrate_Big_Circle.png";
 
 
 
@@ -22,7 +21,7 @@ function LifeAchieve() {
                             encourage each other to follow passions outside of work and live a fruitful life.</div>
                     </div>
                     <div className={classes.rightPartAchieve}>
-                        <img src={Achieve}/>
+                        <img className="circleBig" src={Achieve}/>
                     </div>
                 </div>
             </div>

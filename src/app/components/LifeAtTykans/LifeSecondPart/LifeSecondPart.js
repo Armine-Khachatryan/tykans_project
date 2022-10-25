@@ -1,11 +1,11 @@
 import React from "react";
-import LifeFrame2 from '../../assets/images/lifeEtTykans/LifeFrame2.png';
+import LifeFrame2 from '../../../assets/images/lifeEtTykans/LifeFrame2.png';
 import classes from './LifeSecondPart.module.css';
-import YellowButton from "../../UI/YellowButton/YellowButton";
-import LifeCircle1 from "../../assets/images/lifeEtTykans/LifeCircle1.png";
-import LifeCircle2 from "../../assets/images/lifeEtTykans/LifeCircle2.png";
-import LifeCircle3 from "../../assets/images/lifeEtTykans/LifeCircle3.png";
-import LifeFrame3 from "../../assets/images/lifeEtTykans/LifeFrame3.png";
+import Button from "../../../UI/Button/Button";
+import LifeCircle1 from "../../../assets/images/lifeEtTykans/LifeCircle1.png";
+import LifeCircle2 from "../../../assets/images/lifeEtTykans/LifeCircle2.png";
+import LifeCircle3 from "../../../assets/images/lifeEtTykans/LifeCircle3.png";
+import LifeFrame3 from "../../../assets/images/lifeEtTykans/LifeFrame3.png";
 
 
 
@@ -13,7 +13,6 @@ function LifeSecondPart() {
 
     return(
             <div className={classes.backgroundBlueLife}  style={{ 'background-image': `url(${LifeFrame2})`}}>
-                {/*backgroundRepeat: "no-repeat", backgroundSize:'cover',*/}
                 {/*height: "1121px"}}*/}
                 <div className="container">
                     <div className="containerInside">
@@ -26,9 +25,9 @@ function LifeSecondPart() {
                                 their professional and personal passions.</div>
                             <div className="buttonsDiv">
                                 <div className="firstBtn">
-                                    <YellowButton color='#B96118'>Team Testimonials</YellowButton>
+                                    <Button color='#B96118'>Team Testimonials</Button>
                                 </div>
-                                <YellowButton color='#B96118'>Explore Careers</YellowButton>
+                                <Button color='#B96118'>Explore Careers</Button>
                             </div>
                         </div>
                         <div className={classes.rightPartLifeWorking}>
@@ -39,12 +38,10 @@ function LifeSecondPart() {
                                 <div className={classes.lifeImgDiv2}>
                                     <img className={classes.lifeImg2} src={LifeCircle1}/>
                                 </div>
-
                                 <div className={classes.lifeImgDiv3}>
                                     <img className={classes.lifeImg3} src={LifeCircle3}/>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

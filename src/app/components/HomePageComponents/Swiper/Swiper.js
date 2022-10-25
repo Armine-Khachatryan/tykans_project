@@ -1,9 +1,9 @@
 import { Swiper,  SwiperSlide } from 'swiper/react';
 // import {Zoom,Navigation, Pagination} from "swiper";
-import UpComa from '../../assets/images/UpComa.png';
-import BelowComa from '../../assets/images/BelowComa.png';
-import Avatar from '../../assets/images/Avatar.png';
-import Star from '../../assets/images/Star.png';
+import UpComa from '../../../assets/images/UpComa.png';
+import BelowComa from '../../../assets/images/BelowComa.png';
+import Avatar from '../../../assets/images/Avatar.png';
+import Star from '../../../assets/images/Star.png';
 import classes from './Swiper.module.css';
 // import 'swiper/css/zoom';
 import 'swiper/css';

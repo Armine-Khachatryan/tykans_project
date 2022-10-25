@@ -1,5 +1,5 @@
 import React from "react";
-import Inclusive from '../../assets/images/lifeEtTykans/Inclusive.png';
+import Inclusive from '../../../assets/images/lifeEtTykans/Inclusive.png';
 import classes from './LifeInclusive.module.css';
 
 
@@ -12,7 +12,7 @@ function LifeInclusive() {
             <div className="container">
                 <div className={classes.inclusiveWhole}>
                     <div className={classes.leftPartInclusive}>
-                        <img src={Inclusive}/>
+                        <img className="circleBig" src={Inclusive}/>
                     </div>
                     <div className={classes.rightPartInclusive}>
                         <div className={classes.titleInclusive}>Inclusive</div>

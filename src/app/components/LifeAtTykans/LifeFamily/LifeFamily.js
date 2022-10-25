@@ -1,5 +1,5 @@
 import React from "react";
-import Family from '../../assets/images/lifeEtTykans/Family.png';
+import Family from '../../../assets/images/lifeEtTykans/Family.png';
 import classes from './LifeFamily.module.css';
 
 
@@ -19,7 +19,7 @@ function LifeFamily() {
                             or to connect with each other remotely.</div>
                     </div>
                     <div className={classes.rightPartFamily}>
-                        <img src={Family}/>
+                        <img className="circleBig" src={Family}/>
                     </div>
                 </div>
             </div>

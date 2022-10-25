@@ -1,0 +1,218 @@
+.sixthPartWhole{
+    background-color: #16145F;
+    padding: 0 100px 100px 100px;
+}
+
+.titleSixthPart{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F9F9F9;
+}
+
+.titleSixthPartBold{
+    font-family:Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F9F9F9
+}
+
+.titleSixthPart:nth-child(2){
+    margin-top: 4px;
+    margin-bottom: 64px;
+}
+
+.administrativeDiv{
+    max-width: 1720px;
+    width: 100%;
+    border: 4px solid #92374D;
+    border-radius: 60px;
+    padding: 30px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.dropdownFirstPart{
+    display: flex;
+    align-items: center;
+}
+
+.administrativeNumber{
+    font-family:Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #92374D;
+    width: 75px;
+    margin: auto;
+}
+
+.administartivePosition{
+    font-family:Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #92374D;
+    padding-left: 48px;
+    border-left: 1px solid #92374D;
+}
+
+.pinkArrow{
+    cursor: pointer;
+}
+
+.qualityDiv{
+    max-width: 1720px;
+    width: 100%;
+    border: 4px solid #B96118;
+    border-radius: 60px;
+    padding: 30px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+
+.qualityNumber{
+    font-family:Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #B96118;
+    width: 75px;
+    margin: auto;
+}
+
+.qualityPosition{
+    font-family:Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #B96118;
+    padding-left: 48px;
+    border-left: 1px solid #B96118;
+}
+
+.orangeArrow{
+    cursor: pointer;
+}
+
+.supportDiv{
+    max-width: 1720px;
+    width: 100%;
+    border: 4px solid #6AAB4F;
+    border-radius: 60px;
+    padding: 30px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.supportNumber{
+    font-family:Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #6AAB4F;
+    width: 75px;
+    margin: auto;
+}
+
+.supportPosition{
+    font-family:Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #6AAB4F;
+    padding-left: 48px;
+    border-left: 1px solid #6AAB4F;
+}
+
+.greenArrow{
+    cursor: pointer;
+}
+
+.titleBelow{
+    font-family:Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F9F9F9;
+    max-width: 993px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.emailAndNotify{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notifyMe{
+    padding: 21px 153px;
+    background-color:  #92374D;
+    border-radius: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    border: none;
+    margin-top:35px
+}
+
+.inputClass{
+    display: flex;
+    flex-direction: column;
+    max-width: 1284px;
+    width: 100%;
+}
+
+.inputClass label{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+    margin-left: 30px;
+}
+
+.inputClass input{
+    max-width: 1284px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 360px;
+    padding: 21px 153px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    border: none;
+    color: black;
+}

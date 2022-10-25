@@ -1,5 +1,5 @@
 import React from "react";
-import Celebrate from '../../assets/images/lifeEtTykans/Celebrate.png';
+import Celebrate from '../../../assets/images/lifeEtTykans/Celebrate.png';
 import classes from './LifeCelebrate.module.css';
 
 
@@ -9,7 +9,7 @@ function LifeCelebrate() {
     return(
         <div className={classes.celebrateWhole}>
             <div className={classes.leftPartCelebrate}>
-                <img src={Celebrate}/>
+                <img className="circleBig" src={Celebrate}/>
             </div>
             <div className={classes.rightPartCelebrate}>
                 <div className={classes.titleCelebrate}>Celebrate</div>

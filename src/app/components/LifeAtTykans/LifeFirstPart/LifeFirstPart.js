@@ -1,5 +1,5 @@
 import React from "react";
-import LifeFrame1 from '../../assets/images/lifeEtTykans/LifeFrame1.png';
+import LifeFrame1 from '../../../assets/images/lifeEtTykans/LifeFrame1.png';
 import classes from './LifeFirstPart.module.css';
 
 

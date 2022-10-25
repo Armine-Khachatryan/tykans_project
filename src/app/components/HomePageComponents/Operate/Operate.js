@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Operate.module.css';
-import OperateBigCircle from "../../assets/images/bigCircles/Operate_Big_Circle.png";
-import BlueBook from "../../assets/images/bookIcons/BlueBook.png";
+import OperateBigCircle from "../../../assets/images/bigCircles/Operate_Big_Circle.png";
+import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 
 
 
@@ -10,7 +10,7 @@ function Operate() {
 
     return(
         <>
-            <div className="container">
+            <div className="container" id="operate">
                 <div className={classes.operateWhole}>
                     <div className={classes.leftPartOperate}>
                         <img className="circleBig" src={OperateBigCircle}/>
