@@ -1,0 +1,29 @@
+.createWhole{
+    max-width: 1720px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftPartCreate{
+    max-width: 717px;
+    width: 100%;
+    height: 717px;
+}
+
+.rightPartCreate{
+    max-width: 779px;
+    width: 100%;
+    margin-top: 137px;
+    text-align: right;
+}
+
+.titleCreate{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    color:#EAB531;
+    margin-bottom: 16px;
+}

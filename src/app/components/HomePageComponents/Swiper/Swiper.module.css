@@ -1,0 +1,124 @@
+.swiper-slide{
+    max-width: 359px;
+    width: 100%;
+}
+.active{
+    max-width: 557px !important;
+    width: 100%;
+}
+.bigSlide{
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(107, 155, 242, 0.3);
+    border-radius: 16px;
+}
+
+.upSlide{
+    display: flex;
+}
+
+.avatarDiv{
+    width: 120px;
+    height: 120px;
+    margin-right: 24px;
+}
+
+.slideInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.companyNameInSlide{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #C0C0C0;
+    margin-bottom: 8px;
+}
+
+.nameInSlide{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom: 8px;
+}
+.slideBigText{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #16145F;
+    margin-top: 24px;
+}
+
+.slide{
+    padding: 60px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(107, 155, 242, 0.3);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slideText{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #16145F;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.upComa{
+    width: 40px;
+    height: 40px;
+}
+
+.downComa{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-self: end;
+}
+
+.belowPart{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+.name{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #16145F;
+    margin-right: 8px;
+}
+
+.company{
+    padding-left: 8px;
+    border-left: 1px solid #C0C0C0;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDDDDD;
+}
+
+.dots{
+    font-size: 60px;
+}

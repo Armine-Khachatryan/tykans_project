@@ -1,0 +1,29 @@
+.familyWhole{
+    max-width: 1720px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftPartFamily{
+    max-width: 717px;
+    width: 100%;
+    text-align: left;
+    margin-top: 137px;
+}
+
+.titleFamily{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    color: #6AAB4F;
+    margin-bottom: 16px;
+}
+
+.rightPartFamily{
+    max-width: 717px;
+    width: 100%;
+}

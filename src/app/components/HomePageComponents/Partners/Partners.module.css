@@ -1,0 +1,50 @@
+.partnersWhole{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background: #16145F;
+    height: 917px;
+    margin-top:120px;
+}
+.handDiv{
+    width: 717px;
+    height: 717px;
+}
+
+.partnersPart{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partnersTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    margin-bottom: 16px;
+    color: #EAB531;
+}
+
+.partnersSubTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 32px;
+    color: #F9F9F9;
+}
+
+.partnersText{
+    max-width: 779px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F9F9F9;
+    text-align: right;
+}

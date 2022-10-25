@@ -1,0 +1,15 @@
+.customerTestWhole{
+    background: #F5F5F5;
+    padding-top: 120px;
+    padding-bottom: 112px;
+}
+
+.customerTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    color: #16145F;
+    margin-bottom: 80px;
+}

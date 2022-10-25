@@ -1,0 +1,31 @@
+.wholeDiv{
+    height: 645px;
+    width: 100%;
+    background-color: #16145F;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titleInfoPart{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #F9F9F9;
+    max-width: 861px;
+    width: 100%;
+}
+
+.textInfoPart{
+    margin-top: 32px;
+    margin-bottom: 160px;
+    max-width: 848px;
+    width: 100%;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F9F9F9;
+}

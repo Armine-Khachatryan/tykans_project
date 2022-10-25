@@ -1,0 +1,29 @@
+.achieveWhole{
+    max-width: 1720px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 580px;
+}
+
+.leftPartAchieve{
+    max-width: 717px;
+    width: 100%;
+    text-align: left;
+    margin-top: 137px;
+}
+
+.titleAchieve{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    color: #B96118;
+    margin-bottom: 16px;
+}
+
+.rightPartAchieve{
+    max-width: 717px;
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+.backgroundBlueLife{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 1121px;
+    background-position: bottom;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1121px;
+    z-index: 2;
+}
+
+.LeftPartLifeWorking {
+    max-width: 1118px;
+    width: 100%;
+}
+
+.titleLifeWorking{
+    white-space: nowrap;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #F9F9F9;
+    margin-top: 177px;
+}
+
+.titleLifeWorking:last-child{
+    margin-top: 0
+}
+
+.textLifeWorking{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    max-width: 703px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.rightPartLifeWorking{
+    /*margin-right: 225px;*/
+    /*margin-left: 219px;*/
+  display: flex;
+    padding-top: 67px;
+    /*width: 571px;*/
+    /*!*height: 637px;*!*/
+    /*min-width: 571px;*/
+    /*!*min-height: 637px;*!*/
+}
+
+.lifeImgDiv1{
+  display: flex;
+    align-items: center;
+}
+
+.lifeImg1{
+    width: 300px;
+    height: 300px;
+}
+
+.lifeImgDiv2{
+    margin-bottom: 59px;
+}
+
+.lifeImg2{
+    width: 250px;
+    height: 250px;
+}
+
+.lifeImgDiv3{
+
+}
+
+.lifeImg3 {
+    width: 370px;
+    height: 370px;
+}
+
+.imagesLife{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

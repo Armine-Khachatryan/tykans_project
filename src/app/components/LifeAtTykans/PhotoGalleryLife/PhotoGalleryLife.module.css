@@ -1,0 +1,53 @@
+.galleryTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #B96118;
+    padding-bottom: 16px;
+    border-bottom:3px solid #16145F;
+    margin-bottom: 80px;
+    padding-top: 120px;
+    display: flex;
+    justify-self: flex-start;
+    max-width: 385px;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.galleryFirstPart{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.galleryFirstDownPart{
+    display: flex;
+    align-items: center;
+}
+
+.photo1{
+    max-width: 1024px;
+}
+
+.photo2{
+    max-width:502px
+}
+
+.photo3{
+    max-width:502px
+}
+
+
+.photo4{
+    max-width:676px
+}
+
+.photo5{
+    max-width:676px
+}

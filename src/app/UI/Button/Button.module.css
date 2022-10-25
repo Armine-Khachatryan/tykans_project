@@ -1,0 +1,19 @@
+.yellowButton{
+    /*background: #EAB531;*/
+    border-radius: 360px;
+    padding: 21px 31px;
+    border: none;
+    cursor: pointer;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top:32px;
+    z-index:1
+}
+.yellowButton:disabled{
+    cursor: not-allowed;
+}
