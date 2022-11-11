@@ -1,6 +1,8 @@
 import React from "react";
 import FooterLogo from '../../assets/images/footer/FooterLogo.png';
-import BigMap from '../../assets/images/footer/BigMap.png';
+import GreenVint from '../../assets/images/GreenVint.png';
+import YellowVint from '../../assets/images/YellowVint.png';
+import OrangeVint from '../../assets/images/OrangeVint.png';
 import Twitter from '../../assets/images/footer/Twitter.png';
 import Facebook from '../../assets/images/footer/Facebook.png';
 import Instagram from '../../assets/images/footer/Instagram.png';
@@ -25,22 +27,6 @@ function Footer() {
                     <iframe width="412" height="200" id="gmap_canvas"
                             src="https://maps.google.com/maps?q=3412%2025%20Street%20NE%20Calgary,%20Alberta,%20Canada&t=&z=13&ie=UTF8&iwloc=&output=embed"
                             frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
-                            {/*<iframe width="412" height="200" id="gmap_canvas"*/}
-                            {/*        // src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"*/}
-                            {/*        src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"*/}
-                            {/*        frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">2880 Broadway, New York</iframe>*/}
-                    {/*<div className="mapouter">*/}
-                {/*        <div className="gmap_canvas">*/}
-                {/*        <iframe width="600" height="500" id="gmap_canvas"*/}
-                {/*                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"*/}
-                {/*                frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">2880 Broadway, New York</iframe>*/}
-                {/*        <a href="https://123movies-to.org"></a><br>*/}
-                {/*        /!*<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>*!/*/}
-                {/*        <a href="https://www.embedgooglemap.net"></a>*/}
-                {/*        /!*<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>*!/*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*    <img src={BigMap}/>*/}
                     <div className={classes.footerIcons}>
                         <img className={classes.footerIcon} src={Twitter}/>
                         <img className={classes.footerIcon} src={Facebook}/>
@@ -78,7 +64,16 @@ function Footer() {
                     <div className={classes.footerInfo}>Staff Testimonials</div>
                 </div>
                 <div className={classes.footerImg}>
-                    <img src={Settings}/>
+                    <div>
+                        <img className={classes.yellowVint} src={YellowVint}/>
+                    </div>
+                    <div>
+                        <img  className={classes.greenVint} src={GreenVint}/>
+                    </div>
+                    <div>
+                        <img  className={classes.orangeVint} src={OrangeVint}/>
+                    </div>
+                    {/*<img src={Settings}/>*/}
                 </div>
             </div>
             <div className={classes.footerBelowPart}>

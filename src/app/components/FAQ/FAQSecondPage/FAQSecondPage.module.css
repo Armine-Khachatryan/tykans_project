@@ -1,0 +1,62 @@
+.orangeDivWhole{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    max-width: 1720px;
+    width: 100%;
+    background-color: #B96118;
+    border-radius: 360px;
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.orangeQ{
+    margin-right:90px;
+}
+
+.robotQuestionsDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.robotText{
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 32px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    margin-bottom:64px;
+}
+
+.whiteBtnDiv{
+    margin-right: 24px;
+    background-color: #FFFFFF;
+    border-radius: 360px;
+    padding: 21px 31px;
+    border: none;
+    cursor: pointer;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    text-align: center;
+    margin-top:32px;
+    z-index:1;
+    min-width: 328px;
+}

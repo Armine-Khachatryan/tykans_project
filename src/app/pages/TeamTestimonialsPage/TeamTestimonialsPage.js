@@ -1,4 +1,6 @@
 import React from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import TeamTestFirstPart from "../../components/TeamTest/TeamTestFirstPart/TeamTestFirstPart";
@@ -7,8 +9,18 @@ import TeamTestLastPart from "../../components/TeamTest/TeamTestLastPart/TeamTes
 
 
 
-function TeamTestimonialsPage ()
-{
+function TeamTestimonialsPage () {
+
+    const routePath = useLocation();
+    const onTop = () => {
+        window.scrollTo(0, 0);
+    }
+
+    useEffect(() => {
+        onTop()
+    }, [routePath]);
+
+
     return (
         <>
             <Header/>

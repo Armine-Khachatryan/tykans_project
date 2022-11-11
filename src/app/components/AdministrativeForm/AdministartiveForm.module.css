@@ -1,0 +1,195 @@
+.entireForm{
+    background-color: #E2E2E9;
+    border-radius: 32px;
+    padding: 64px;
+}
+
+.formTitles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.formTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: #16145F;
+}
+
+.formSubTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #16145F;
+}
+
+.redForm{
+    color: #92374D;
+}
+
+
+.attachedWhole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding-left: 200px;*/
+    /*padding-right: 200px;*/
+}
+
+.attachOne{
+    display: flex;
+    flex-direction: column;
+}
+
+.attachedTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #16145F;
+    margin-bottom: 8px;
+}
+
+.attachedSubTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #16145F;
+    margin-bottom: 24px;
+}
+
+.attachedButton{
+    display: flex;
+    align-items: center;
+    background: #16145F;
+    border-radius: 360px;
+    padding: 20px 51px;
+    text-align: center;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.formLastDiv{
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.selectAndLabel{
+    display: block;
+    margin-bottom: 32px;
+}
+
+.selectLabel{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #16145F;
+    margin-bottom: 16px;
+}
+
+.selectInput{
+    max-width: 1592px;
+    width: 100%;
+    padding: 6px 24px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color:  #16145F;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+.selectInput:focus{
+    /*border: 1px solid rgba(121, 63, 249, 1);*/
+    outline: none;
+    color:  #16145F;
+}
+
+.selectInput::placeholder{
+    color: #7A7A7A;
+}
+
+.invalid{
+    border: 2px solid rgba(249, 63, 63, 1) !important;
+}
+
+.textDanger{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(249, 63, 63, 1);
+    margin-top: 4px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.privacyStatement{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #16145F;
+    margin-bottom: 32px;
+    margin-top: 100px;
+}
+
+.privacy{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #16145F;
+    margin-bottom: 76px;
+    margin-top: 32px;
+    text-transform:none;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.unerlinedSpan{
+    border-bottom: 3px solid #16145F;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.uploadedFile{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    cursor: pointer;
+}
+

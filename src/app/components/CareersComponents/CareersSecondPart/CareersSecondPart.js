@@ -2,6 +2,9 @@ import React from "react";
 import Careers2 from '../../../assets/images/careers/Careers2.png';
 import classes from './CareersSecondPart.module.css';
 import Button from "../../../UI/Button/Button";
+import YellowVint from "../../../assets/images/YellowVint.png";
+import GreenVint from "../../../assets/images/GreenVint.png";
+import OrangeVint from "../../../assets/images/OrangeVint.png";
 
 
 function CareersSecondPage (){
@@ -21,7 +24,16 @@ function CareersSecondPage (){
                 </div>
                 <div className={classes.insideCareersRight}>
                     <div className={classes.careers2ImgDiv}>
-                        <img src={Careers2}/>
+                        <div>
+                            <img className={classes.yellowVint} src={YellowVint}/>
+                        </div>
+                        <div>
+                            <img  className={classes.greenVint} src={GreenVint}/>
+                        </div>
+                        <div>
+                            <img  className={classes.orangeVint} src={OrangeVint}/>
+                        </div>
+                        {/*<img src={Careers2}/>*/}
                     </div>
                 </div>
             </div>

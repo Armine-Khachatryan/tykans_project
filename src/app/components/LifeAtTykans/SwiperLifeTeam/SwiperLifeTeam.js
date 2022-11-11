@@ -1,4 +1,5 @@
 import { Swiper,  SwiperSlide } from 'swiper/react';
+import {useNavigate} from "react-router-dom";
 import { Pagination, Navigation } from "swiper";
 import classes from './SwiperLifeTeam.module.css';
 import 'swiper/css';
@@ -12,9 +13,11 @@ import React from "react";
 
 
 
+
 export default function SwiperLifeTeam (){
 
-    // const swiper = useSwiper();
+    const navigate= useNavigate();
+
 
     return (
         <Swiper
@@ -45,7 +48,7 @@ export default function SwiperLifeTeam (){
                                 I can count on as being my work family…</div>
                             <div className={classes.buttonsLife}>
                                 <div className={classes.firstButton}>
-                                    <Button color='#B96118'>Read more</Button>
+                                    <Button color='#B96118' OnClick={()=>navigate(`/team-testimonials`)}>Read more</Button>
                                 </div>
                                 <Button color='#B96118'>Explore Careers</Button>
                             </div>
@@ -70,7 +73,7 @@ export default function SwiperLifeTeam (){
                                 Tykans loves me the way I am.</div>
                             <div className={classes.buttonsLife}>
                                 <div className={classes.firstButton}>
-                                    <Button color='#B96118'>Read more</Button>
+                                    <Button color='#B96118' OnClick={()=>navigate(`/team-testimonials`)}>Read more</Button>
                                 </div>
                                 <Button color='#B96118'>Explore Careers</Button>
                             </div>

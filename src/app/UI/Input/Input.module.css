@@ -1,10 +1,18 @@
 .control{
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
-.control input,
+/*.control input,*/
 .control label {
     display: block;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #16145F;
+    margin-bottom: 16px;
 }
 
 .inputDiv{
@@ -13,24 +21,24 @@
 
 .control input,
 .select {
+    max-width: 1592px;
+    width: 100%;
     padding: 6px 24px;
-    font-family:  TT_Commons-Medium, sans-serif;
+    font-family: Effra_Trial_Medium, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    color: #000000;
+    color:  #16145F;
     background: #FFFFFF;
     border-radius: 8px;
-    max-width: 550px;
-    width: 100%;
     border: none;
 }
 
 .control input:focus{
-    border: 1px solid rgba(121, 63, 249, 1);
+    /*border: 1px solid rgba(121, 63, 249, 1);*/
     outline: none;
-    color: #000000;
+    color:  #16145F;
 }
 
 .control input::placeholder{
@@ -42,7 +50,7 @@
 }
 
 .textDanger{
-    font-family:  TT_Commons-Regular, sans-serif;
+    font-family: Effra_Trial_Regular, sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: rgba(249, 63, 63, 1);
@@ -57,4 +65,9 @@
     bottom: 11px;
     right: 35px;
     cursor:pointer;
+}
+
+
+.redOne{
+    color:#92374D
 }

@@ -1,12 +1,14 @@
 import React from "react";
 import Careers4 from '../../../assets/images/careers/Careers4.png';
 import Careers5 from '../../../assets/images/careers/Careers5.png'
-import Button from "../../../UI/Button/Button";
 import classes from './CareersSeventhPart.module.css';
+import {useNavigate} from "react-router-dom";
 
 
 
 function CareersSeventhPart(){
+
+    const navigate=useNavigate
 
     return(
         <div className={classes.seventhWhole}>
@@ -26,7 +28,7 @@ function CareersSeventhPart(){
                     </div>
                     <div className={classes.seventhText}>Questions about joining Tykans
                         or about the interview process?</div>
-                    <button  className={classes.redBtn}>FAQ’s</button>
+                    <button className={classes.redBtn} onClick={()=>{navigate(`/faq`)}}>FAQ’s</button>
                 </div>
             </div>
         </div>

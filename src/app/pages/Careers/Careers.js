@@ -1,4 +1,6 @@
 import React from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import CareersFirstPage from "../../components/CareersComponents/CareersFirstPart/CareersFirstPart";
@@ -8,11 +10,23 @@ import CareersFourthPart from "../../components/CareersComponents/CareersFourthP
 import CareersFifthPart from "../../components/CareersComponents/CareersFifthPart/CareersFifthPart";
 import CareersSixthPart from "../../components/CareersComponents/CareersSixthPart/CareersSixthPart";
 import CareersSeventhPart from "../../components/CareersComponents/CareersSeventhPart/CareersSeventhPart";
+// import Administrative from "../../components/Administrative/Administrative";
 
 
 
 
 function Careers (){
+
+    const routePath = useLocation();
+    const onTop = () => {
+        window.scrollTo(0, 0);
+    }
+
+    useEffect(() => {
+        onTop()
+    }, [routePath]);
+
+
     return(
         <>
             <Header/>

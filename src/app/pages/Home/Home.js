@@ -1,4 +1,6 @@
 import React from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Services from "../../components/HomePageComponents/Services/Services";
 import classes from './Home.module.css';
 import Frame2 from "../../assets/images/Frame2.png";
@@ -28,11 +30,20 @@ import Footer from "../../components/Footer/Footer";
 
 function Home() {
 
+    const routePath = useLocation();
+    const onTop = () => {
+        window.scrollTo(0, 0);
+    }
+
+    useEffect(() => {
+        onTop()
+    }, [routePath]);
+
     return(
         <>
             <Header/>
             <Services/>
-            <div className={classes.backgroundBlue} style={{ 'background-image': `url(${Frame2})`}}>
+            <div className={classes.backgroundBlue} style={{ background: `url(${Frame2})`}}>
                 <div className="container">
                     <div className="containerInside">
                         <div className={classes.LeftPartInnovation}>

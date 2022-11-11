@@ -8,6 +8,7 @@ img {
 
 body{
     background-color: #F5F5F5;
+    min-height: 100vh;
 }
 
 html{
@@ -58,6 +59,18 @@ html{
     margin-bottom: 24px;
 }
 
+.unselected{
+    font-family: Montserrat_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #EAB531;
+}
 .readMore{
     display: flex;
     align-items: center;
@@ -133,6 +146,10 @@ html{
 
 .redTitle{
     color: #92374D
+}
+
+.blueTitle{
+    color: #16145F;
 }
 
 .teamMemberOne{

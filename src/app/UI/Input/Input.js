@@ -8,7 +8,8 @@ function Input (props) {
         <div
             className={classes.control}
         >
-            {props.label && <label htmlFor={props.input.id}>{props.label}</label>}
+            {props.label && <label htmlFor={props.input.id}>{props.label}<span className={classes.redOne}>
+                {props.red}</span></label>}
             <div className={classes.inputDiv}>
                 <input className={`${props.hasError || props.loginError? classes.invalid: ""}`}
                        {...props.input}

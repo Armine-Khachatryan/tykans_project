@@ -1,13 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
+import {useNavigate} from "react-router-dom";
 import PinkArrow from '../../../assets/images/careers/PinkArrow.png';
 import OrangeArrow from '../../../assets/images/careers/OrangeArrow.png';
 import GreenArrow from '../../../assets/images/careers/GreenArrow.png';
 import classes from './CareersSixthPart.module.css';
+import Location from '../../../assets/images/administrative/Location.png';
+import Calendar from '../../../assets/images/administrative/Calendar.png';
 
 
 
 
 function CareersSixthPart (){
+    const [showAdministrative, setShowAdministrative]=useState(false)
+
+
+    const navigate= useNavigate();
 
 
     return(
@@ -16,13 +23,45 @@ function CareersSixthPart (){
                 <div className={classes.titleSixthPart}>We solve problems and connect our communities</div>
                 <div className={classes.titleSixthPart}><span className={classes.titleSixthPartBold}>Want to join us?
                 </span>Check out our open positions below.</div>
-                <div className={classes.administrativeDiv}>
+                <div className={classes.administrativeWholeShowDiv}>
+                    <div className={classes.administrativeDiv}>
                     <div className={classes.dropdownFirstPart}>
                         <div className={classes.administrativeNumber}>1</div>
                         <div className={classes.administartivePosition}>Administrative</div>
                     </div>
-                    <img className={classes.pinkArrow} src={PinkArrow}/>
-                </div>
+                    <img className={classes.pinkArrow} src={PinkArrow} onClick={()=>setShowAdministrative(!showAdministrative)}/>
+                    </div>
+                {showAdministrative &&
+                    <>
+                        <div className={classes.administrativeJobWhole}>
+                            <div className={classes.jobTypes}>
+                                <div className={classes.jobType}>Administrative</div>
+                                <div className={classes.jobTypeBelow}>FullTime</div>
+                            </div>
+                            <div className={classes.locationDiv}><img className={classes.locationImg} src={Location}/>
+                                155, rue Notre-Dame Est Montréal</div>
+                            <div className={classes.calendarDiv}><img src={Calendar}/>
+                                13 November 2022</div>
+                            <button className={classes.adminBtn} onClick={()=>{navigate(`/administrative`)}}>
+                                View more</button>
+                        </div>
+                        <div className={classes.administrativeJobWhole}>
+                            <div className={classes.jobTypes}>
+                                <div className={classes.jobType}>Administrative</div>
+                                <div className={classes.jobTypeBelow}>FullTime</div>
+                            </div>
+                            <div className={classes.locationDiv}><img className={classes.locationImg} src={Location}/>
+                                155, rue Notre-Dame Est Montréal</div>
+                            <div className={classes.calendarDiv}><img src={Calendar}/>
+                                13 November 2022</div>
+                            <button className={classes.adminBtn} onClick={()=>{navigate(`/administrative`)}}>
+                                View more</button>
+                        </div>
+                    </>
+                }
+            </div>
+
+
                 <div className={classes.qualityDiv}>
                     <div className={classes.dropdownFirstPart}>
                         <div className={classes.qualityNumber}>10</div>

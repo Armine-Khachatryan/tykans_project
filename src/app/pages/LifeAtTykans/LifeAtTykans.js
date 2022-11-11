@@ -1,4 +1,6 @@
 import React from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import LifeFirstPart from "../../components/LifeAtTykans/LifeFirstPart/LifeFirstPart";
 import LifeSecondPart from "../../components/LifeAtTykans/LifeSecondPart/LifeSecondPart";
@@ -14,6 +16,14 @@ import LifeFourthPart from "../../components/LifeAtTykans/LifeFourthPart/LifeFou
 
 function LifeAtTykans (){
 
+    const routePath = useLocation();
+    const onTop = () => {
+        window.scrollTo(0, 0);
+    }
+
+    useEffect(() => {
+        onTop()
+    }, [routePath]);
 
     return(
         <>

@@ -1,4 +1,4 @@
-.yellowButton{
+.btnStyle{
     /*background: #EAB531;*/
     border-radius: 360px;
     padding: 21px 31px;
@@ -12,8 +12,9 @@
     color: #FFFFFF;
     text-align: center;
     margin-top:32px;
-    z-index:1
+    z-index:1;
+    min-width: 328px;
 }
-.yellowButton:disabled{
+.btnStyle:disabled{
     cursor: not-allowed;
 }

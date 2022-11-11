@@ -1,18 +1,20 @@
 import React from "react";
+import {useNavigate} from "react-router-dom";
 import LifeFrame2 from '../../../assets/images/lifeEtTykans/LifeFrame2.png';
 import classes from './LifeSecondPart.module.css';
 import Button from "../../../UI/Button/Button";
 import LifeCircle1 from "../../../assets/images/lifeEtTykans/LifeCircle1.png";
 import LifeCircle2 from "../../../assets/images/lifeEtTykans/LifeCircle2.png";
 import LifeCircle3 from "../../../assets/images/lifeEtTykans/LifeCircle3.png";
-import LifeFrame3 from "../../../assets/images/lifeEtTykans/LifeFrame3.png";
 
 
 
 function LifeSecondPart() {
 
+    const navigate= useNavigate()
+
     return(
-            <div className={classes.backgroundBlueLife}  style={{ 'background-image': `url(${LifeFrame2})`}}>
+            <div className={classes.backgroundBlueLife}  style={{ background: `url(${LifeFrame2})`}}>
                 {/*height: "1121px"}}*/}
                 <div className="container">
                     <div className="containerInside">
@@ -25,7 +27,7 @@ function LifeSecondPart() {
                                 their professional and personal passions.</div>
                             <div className="buttonsDiv">
                                 <div className="firstBtn">
-                                    <Button color='#B96118'>Team Testimonials</Button>
+                                    <Button color='#B96118' OnClick={()=>navigate(`/team-testimonials`)}>Team Testimonials</Button>
                                 </div>
                                 <Button color='#B96118'>Explore Careers</Button>
                             </div>
