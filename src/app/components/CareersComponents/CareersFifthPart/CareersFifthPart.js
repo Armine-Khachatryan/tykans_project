@@ -9,7 +9,7 @@ function  CareersFifthPart (){
     return(
         <div className={classes.careersFifthPartBackImg}  style={{'background-image': `url(${BlueFrame})`,
             height: "1222px"}}>
-            <div className={classes.photoCareersFifthPart} style={{background: `url(${Careers3})`, height: "1000px"}}>
+            <div className={classes.photoCareersFifthPart} style={{'background-image': `url(${Careers3})`, height: "1000px"}}>
                 <div className={classes.titleCareersFifthPart}>Current Opportunities</div>
             </div>
         </div>

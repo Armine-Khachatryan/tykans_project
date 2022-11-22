@@ -17,6 +17,8 @@ import CareersSeventhPart from "../../components/CareersComponents/CareersSevent
 
 function Careers (){
 
+
+
     const routePath = useLocation();
     const onTop = () => {
         window.scrollTo(0, 0);

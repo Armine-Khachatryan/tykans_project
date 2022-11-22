@@ -1,0 +1,91 @@
+.valuesWhole{
+    max-width: 1720px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.leftPartValues{
+    max-width: 717px;
+    width: 100%;
+    height: 717px;
+}
+
+.titleValues{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+
+.valuesWhole:nth-child(even) .rightPartValues{
+    text-align: left;
+}
+
+.valuesWhole:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.valuesWhole:first-child .titleValues{
+    color:#92374D;;
+}
+
+.valuesWhole:nth-child(2) .titleValues{
+    color: #B96118;
+}
+
+.valuesWhole:nth-child(3) .titleValues{
+    color:#EAB531;
+}
+
+.valuesWhole:nth-child(4) .titleValues{
+    color: #6AAB4F;
+}
+
+.valuesWhole:nth-child(5) .titleValues{
+    color:#214381;
+}
+
+.valuesWhole:nth-child(6) .titleValues{
+    color: #16145F;
+}
+
+
+.valuesWhole:nth-child(7) .titleValues{
+    color:#92374D;
+}
+
+
+.valuesWhole:nth-child(8) .titleValues{
+    color: #B96118;
+}
+
+.valuesWhole:nth-child(9) .titleValues{
+    color:#EAB531;
+}
+
+.valuesWhole:nth-child(10) .titleValues{
+    color: #6AAB4F;
+}
+
+.valuesWhole:nth-child(11) .titleValues{
+    color:#214381;
+}
+
+.valuesWhole:nth-child(12) .titleValues{
+    color: #16145F;
+}
+
+.rightPartValues{
+    max-width: 717px;
+    width: 100%;
+    text-align: right;
+}
+
+
+

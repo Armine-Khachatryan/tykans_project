@@ -16,11 +16,12 @@ html{
 }
 
 .container{
-    max-width: 1720px;
+    max-width: 1750px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    z-index: 10;
 }
 
 .containerInside{
@@ -110,6 +111,7 @@ html{
 .part1BackImg{
     position: relative;
     display: flex;
+    align-items: flex-end;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -127,12 +129,12 @@ html{
     z-index: 0;
 }
 
+
 .titleServices {
-    cursor: pointer;
-    margin-left: 100px;
-    margin-bottom: 100px;
     display: flex;
-    align-self: flex-end;
+    cursor: pointer;
+    width:max-content;
+    margin-bottom: 100px;
     font-family: Effra_Trial_Medium, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -143,6 +145,7 @@ html{
     border-bottom: 6px solid #FFFFFF;
     z-index:1
 }
+
 
 .redTitle{
     color: #92374D

@@ -49,6 +49,8 @@ function FAQSecondPage(){
             submitHandler()
         }
     }
+
+
     return(
         <div className="container">
             <div className={classes.orangeDivWhole}>

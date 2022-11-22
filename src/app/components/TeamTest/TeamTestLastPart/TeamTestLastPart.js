@@ -29,7 +29,7 @@ function TeamTestLastPart (){
                     <img  className={classes.blueVint} src={BlueVint}/>
                 </div>
             </div>
-            <div className={classes.middleImgDiv} style={{ background: `url(${TeamExplore})`}}>
+            <div className={classes.middleImgDiv} style={{ 'background-image': `url(${TeamExplore})`}}>
                 <Button color='#B96118'>Explore Careers</Button>
             </div>
             <div className={classes.rightMechanism}>

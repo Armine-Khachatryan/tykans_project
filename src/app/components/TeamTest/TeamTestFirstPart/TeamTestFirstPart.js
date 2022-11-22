@@ -2,13 +2,20 @@ import React from "react";
 import TeamTestFrame from '../../../assets/images/teamTestImages/TeamTestFrame.png';
 
 
-function TeamTestFirstPart (){
-    return(
-        <div className="part1BackImg" style={{ background: `url(${TeamTestFrame})`}}>
-            <div className="titleServices">Team Testimonials</div>
-        </div>
-    )
+function TeamTestFirstPart (props){
+
+
+return(
+    <div className="part1BackImg" style={{ 'background-image': `url(${TeamTestFrame})`}}>
+        <div className="titleServices">{props?.teamInfo[0]?.attributes.title}</div>
+    </div>
+)
 }
 
-
 export default TeamTestFirstPart;
+
+
+
+// <div className="part1BackImg" style={{ 'background-image': `url(${props.teamInfo[0].attributes.image})`}}>
+//     <div className="titleServices">{props.teamInfo[0].attributes.title}</div>
+// </div>

@@ -6,7 +6,7 @@ import LifeCelebrate from "../LifeCelebrate/LifeCelebrate";
 function LifeThirdPart(){
     return(
         <>
-        <div className={classes.backgroundLifeThirdPart} style={{ background: `url(${LifeFrame3})`,
+        <div className={classes.backgroundLifeThirdPart} style={{ 'background-image': `url(${LifeFrame3})`,
             backgroundRepeat: "no-repeat", backgroundSize:'cover',
             height: "1121px"}}
         >

@@ -1,7 +1,14 @@
 .footerWhole{
     position: relative;
-    padding: 60px 100px 24px  100px;
+    padding-top: 60px;
+    padding-bottom: 24px;
     background: #16145F;
+    /*position: sticky;*/
+    /*bottom: 0;*/
+    /*z-index: 1000;*/
+}
+
+.footer{
     display: flex;
     flex-direction: column;
 }
@@ -69,6 +76,7 @@
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .footerImg{

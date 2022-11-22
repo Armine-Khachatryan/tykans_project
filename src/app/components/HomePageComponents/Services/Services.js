@@ -9,8 +9,10 @@ function Services() {
 
 
     return(
-        <div className="part1BackImg" style={{ background: `url(${Frame1})`}}>
-            <div className="titleServices">Services</div>
+        <div className="part1BackImg" style={{ 'background-image': `url(${Frame1})`}}>
+            <div className="container">
+                <div className="titleServices">Services</div>
+            </div>
         </div>
     )
 }

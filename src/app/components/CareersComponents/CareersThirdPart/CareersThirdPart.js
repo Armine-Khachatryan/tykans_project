@@ -9,7 +9,7 @@ function CareersThirdPage (){
 
 
     return(
-        <div className={classes.blueFrame} style={{ background: `url(${BlueFrame})`}}>
+        <div className={classes.blueFrame} style={{'background-image': `url(${BlueFrame})`}}>
             <div className={classes.frameInside}>
                 <div className={classes.whoImageDiv}>
                     <img className={classes.personImg} src={PersonImg}/>

@@ -14,7 +14,7 @@ function LifeSecondPart() {
     const navigate= useNavigate()
 
     return(
-            <div className={classes.backgroundBlueLife}  style={{ background: `url(${LifeFrame2})`}}>
+            <div className={classes.backgroundBlueLife}  style={{ 'background-image': `url(${LifeFrame2})`}}>
                 {/*height: "1121px"}}*/}
                 <div className="container">
                     <div className="containerInside">

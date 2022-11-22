@@ -10,6 +10,8 @@ import Careers from "./app/pages/Careers/Careers";
 import LifeAtTykans from "./app/pages/LifeAtTykans/LifeAtTykans";
 import TeamTestimonialsPage from "./app/pages/TeamTestimonialsPage/TeamTestimonialsPage";
 import AdministrativePage from "./app/pages/AdministrativePage/AdministrativePage";
+import AboutUs from "./app/pages/AboutUs/AboutUs";
+import ContactUs from "./app/pages/ContactUs/ContactUs";
 import './App.css';
 
 
@@ -26,6 +28,8 @@ function App() {
               <Route exact path="/careers"  element={ <Careers/>}/>
               <Route exact path="/administrative"  element={ <AdministrativePage/>}/>
               <Route exact path="/faq"  element={ <FAQ/>}/>
+              <Route exact path="/about-us"  element={ <AboutUs/>}/>
+              <Route exact path="/contact-us"  element={ <ContactUs/>}/>
           </Routes>
       </BrowserRouter>
   );

@@ -13,7 +13,7 @@ const isEmail = value => regExpEmail.test(value);
 const isPassword = value => regExpPass.test(value);
 const isNotEmpty = value => value.trim() !== '';
 const isPhoneNumber = value => regExpPhone.test(value);
-const isURL = value =>regExpURL.test(value)
+const isURL = value =>regExpURL.test(value);
 
 const useValidation = () => {
 

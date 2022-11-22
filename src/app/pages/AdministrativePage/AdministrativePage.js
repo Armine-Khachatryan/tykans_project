@@ -24,7 +24,7 @@ function AdministrativePage () {
     return(
         <>
             <Header/>
-            <div className="part1BackImg" style={{ background: `url(${AdministrativeImage})`}}></div>
+            <div className="part1BackImg" style={{ 'background-image': `url(${AdministrativeImage})`}}></div>
             <Administrative/>
             <Footer/>
         </>

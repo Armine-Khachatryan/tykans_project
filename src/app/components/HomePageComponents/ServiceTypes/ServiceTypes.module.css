@@ -1,0 +1,119 @@
+.services{
+    position: relative;
+}
+
+.serviceTypesWhole{
+    max-width: 1720px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.serviceTypesWhole:first-child{
+    position: absolute;
+    top: -800px;
+}
+
+
+.serviceTypesWhole:nth-child(2){
+    margin-top: 400px;
+}
+
+
+.serviceTypesWhole:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.serviceTypesWhole:nth-child(even) .rightPartServiceTypes{
+    text-align: left;
+}
+.readMore{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #16145F;
+    cursor: pointer;
+}
+
+.serviceTypesWhole:nth-child(even) .readMore{
+    justify-content: flex-start
+}
+
+.leftPartServiceTypes{
+    max-width: 717px;
+    width: 100%;
+    height: 717px;
+}
+
+.titleServiceTypes{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    margin-bottom: 16px;
+}
+
+.serviceTypesWhole:first-child .titleServiceTypes{
+    color:#92374D;
+}
+
+.serviceTypesWhole:nth-child(2) .titleServiceTypes{
+    color: #B96118;
+}
+
+.serviceTypesWhole:nth-child(3) .titleServiceTypes{
+    color:#EAB531;
+}
+
+.serviceTypesWhole:nth-child(4) .titleServiceTypes{
+    color: #6AAB4F;
+}
+
+.serviceTypesWhole:nth-child(5) .titleServiceTypes{
+    color:#214381;
+}
+
+.serviceTypesWhole:nth-child(6) .titleServiceTypes{
+    color: #16145F;
+}
+
+
+.serviceTypesWhole:nth-child(7) .titleServiceTypes{
+    color:#92374D;
+}
+
+
+.serviceTypesWhole:nth-child(8) .titleServiceTypes{
+    color: #B96118;
+}
+
+.serviceTypesWhole:nth-child(9) .titleServiceTypes{
+    color:#EAB531;
+}
+
+.serviceTypesWhole:nth-child(10) .titleServiceTypes{
+    color: #6AAB4F;
+}
+
+.serviceTypesWhole:nth-child(11) .titleServiceTypes{
+    color:#214381;
+}
+
+.serviceTypesWhole:nth-child(12) .titleServiceTypes{
+    color: #16145F;
+}
+
+.rightPartServiceTypes{
+    max-width: 717px;
+    width: 100%;
+    text-align: right;
+    margin-top: 137px;
+}
+

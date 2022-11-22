@@ -11,7 +11,7 @@ function LifeFourthPart(){
 
     return(
         <div className={classes.teamTestBackImg}  style={{'background-image': `url(${LifeFrame4})`, height: "1222px"}}>
-            <div className={classes.photoTeamTest} style={{background: `url(${LifeFrame5})`, height: "1000px"}}>
+            <div className={classes.photoTeamTest} style={{'background-image': `url(${LifeFrame5})`, height: "1000px"}}>
                 <div className={classes.titleTeamTest}  onClick={()=>{navigate(`/team-testimonials`)}}>
                     Team Testimonials</div>
             </div>

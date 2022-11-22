@@ -1,0 +1,131 @@
+.numbersWhole{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 100px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.titleNumbers{
+    text-align: center;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #EAB531;
+    margin-bottom: 40px;
+}
+
+.subTitleNumbers{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    margin:40px auto 180px;
+    max-width: 1015px;
+    width: 100%;
+    color: #16145F;
+}
+.numbersBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.numbersDiv{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.numbersDiv:first-child .number{
+    color:#6AAB4F;
+}
+
+.numbersDiv:nth-child(2) .number{
+    color: #16145F;
+}
+.numbersDiv:nth-child(3) .number{
+    color:#92374D;
+}
+
+.numbersDiv:nth-child(4) .number{
+    color: #B96118;
+}
+
+.numbersDiv:nth-child(5) .number{
+    color:#EAB531;
+}
+
+.numbersDiv:nth-child(6) .number{
+    color: #6AAB4F;
+}
+
+.numbersDiv:nth-child(7) .number{
+    color:#92374D;
+}
+
+.numbersDiv:nth-child(8) .number{
+    color: #B96118;
+}
+
+.numbersDiv:nth-child(9) .number{
+    color:#16145F;
+}
+
+.numbersDiv:nth-child(10) .number{
+    color: #6AAB4F;
+}
+
+
+.numbersDiv:nth-child(11) .number{
+    color:  #16145F;
+}
+
+
+.numbersDiv:nth-child(12) .number{
+    color: #92374D;
+}
+
+
+.numbersDiv:nth-child(13) .number{
+    color: #B96118;
+}
+
+.numbersDiv:nth-child(14) .number{
+    color:#EAB531;
+}
+.numbersDiv:nth-child(15) .number{
+    color: #6AAB4F;
+}
+
+
+.number{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 160px;
+    line-height: 190px;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16145F;
+}
+
+.btnsDivNumbers{
+    display: flex;
+    margin: 40px auto 160px;
+}
+
+.firstButton{
+    margin-right: 24px;
+}

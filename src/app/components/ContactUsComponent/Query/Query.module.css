@@ -1,0 +1,50 @@
+.queryWhole {
+    background-color: #E2E2E9;
+    border-radius: 32px;
+    padding:80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.queryLeft{
+    max-width:640px;
+    width: 100%;
+    height:640px;
+}
+
+.imgQuery{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.queryRight{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.queryTitle{
+    max-width: 329px;
+    width: 100%;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 108px;
+    color: #92374D;
+    margin-bottom: 24px;
+}
+
+.queryText{
+    max-width: 520px;
+    width: 100%;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: right;
+    color: #16145F;
+}
+

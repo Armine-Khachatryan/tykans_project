@@ -1,0 +1,140 @@
+.wholeBelowContact{
+    padding-top: 128px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.leftPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleFind{
+    margin-top: 32px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #EAB531;
+    margin-bottom: 105px;
+}
+
+.addressContactSocial{
+    display: flex;
+    justify-content: space-between;
+}
+.detailsDiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.detailsTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 16px;
+}
+
+.getDirection{
+    display: flex;
+    align-items: center;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #92374D;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.detailsAddress{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #16145F;
+    margin-bottom: 22px;
+    width: 188px;
+}
+
+.detailsContact{
+    display: flex;
+    align-items: center;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #16145F;
+    cursor: pointer;
+}
+
+/*.icons{*/
+/*    margin-bottom: 70px;*/
+/*}*/
+
+.rightPart{
+    width: 640px;
+    height: 645px;
+    border-radius:5px;
+    margin-bottom: 127px;
+}
+
+.frame{
+    width: 640px;
+    height: 645px;
+    border-radius:5px;
+    background-color: blue;
+    /*border-radius: 100%;*/
+}
+
+.iconDiv{
+    cursor: pointer;
+}
+
+.leftPart{
+    position: relative;
+}
+
+.redIconDiv{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: 50px;
+    -webkit-animation:spin 16s linear infinite;
+    -moz-animation:spin 16s linear infinite;
+    animation:spin 16s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+.yellowIconDiv{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 120px;
+    left: 180px;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
+    animation-direction: reverse;
+}

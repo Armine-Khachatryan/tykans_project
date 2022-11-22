@@ -28,7 +28,7 @@ function CareersSeventhPart(){
                     </div>
                     <div className={classes.seventhText}>Questions about joining Tykans
                         or about the interview process?</div>
-                    <button className={classes.redBtn} onClick={()=>{navigate(`/faq`)}}>FAQ’s</button>
+                    <button className={classes.redBtn} onClick={()=>navigate(`/faq`)}>FAQ’s</button>
                 </div>
             </div>
         </div>

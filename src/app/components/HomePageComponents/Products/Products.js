@@ -10,9 +10,11 @@ function Products() {
 
 
     return (
-        <div className={classes.productsBackImg} style={{background: `url(${BlueFrame})`,height: "1222px"}}>
-            <div className={classes.productFrameDiv} style={{background: `url(${ProductFrame})`}}>
-                <div className={classes.titleProducts}>Products</div>
+        <div className={classes.productsBackImg} style={{'background-image': `url(${BlueFrame})`,height: "1222px"}}>
+            <div className={classes.productFrameDiv} style={{'background-image': `url(${ProductFrame})`}}>
+                <div className="container">
+                    <div className={classes.titleProducts}>Products</div>
+                </div>
             </div>
         </div>
     )

@@ -16,7 +16,6 @@
 }
 
 .titleInnovation{
-    white-space: nowrap;
     font-family: Effra_Trial_Medium, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -24,6 +23,7 @@
     line-height: 76px;
     color: #F9F9F9;
     margin-top: 170px;
+    width:  748px ;
 }
 
 .titleInnovation:last-child{

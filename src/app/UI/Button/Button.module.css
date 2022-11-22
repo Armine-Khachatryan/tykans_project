@@ -17,4 +17,5 @@
 }
 .btnStyle:disabled{
     cursor: not-allowed;
+    color:grey
 }
