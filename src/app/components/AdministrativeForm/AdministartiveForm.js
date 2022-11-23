@@ -229,6 +229,7 @@ console.log(selectedFile)
                     hasError={fullnameHasError}
                     errorText="Please enter Full Name."
                     label="Full Name"
+                    show={true}
                     red=" *"
                     input={{
                         value: fullname,
@@ -243,6 +244,7 @@ console.log(selectedFile)
                     hasError={emailHasError}
                     errorText={emailMessage}
                     label="email"
+                    show={true}
                     red=" *"
                     input={{
                         value: email,
@@ -257,6 +259,7 @@ console.log(selectedFile)
                     hasError={hasConfirmEmailError && confirmEmailIsTouched}
                     errorText={confirmEmailMessage}
                     label="confirm email"
+                    show={true}
                     red=" *"
                     input={{
                         value: confirmEmailValue,
@@ -270,6 +273,7 @@ console.log(selectedFile)
                     hasError={phoneNumberHasError}
                     errorText="Please enter phone number."
                     label="phone"
+                    show={true}
                     red=" *"
                     input={{
                         value: phoneNumber,
@@ -343,6 +347,7 @@ console.log(selectedFile)
                     hasError={portfolioHasError}
                     errorText="Please enter a portfolio"
                     label="pORTFOLIO"
+                    show={true}
                     input={{
                         value: portfolio,
                         placeholder: "",
@@ -355,6 +360,7 @@ console.log(selectedFile)
                     hasError={linkedInProfileHasError}
                     errorText="Please enter LinkedIn Profile URL"
                     label="Linkedin profile"
+                    show={true}
                     input={{
                         value: linkedInProfile,
                         placeholder: "",
@@ -367,6 +373,7 @@ console.log(selectedFile)
                     hasError={otherWebsiteHasError}
                     errorText="Please enter other website URL"
                     label="other website"
+                    show={true}
                     input={{
                         value: otherWebsite,
                         placeholder: "",

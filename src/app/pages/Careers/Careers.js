@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import CareersFirstPage from "../../components/CareersComponents/CareersFirstPart/CareersFirstPart";
@@ -18,7 +18,7 @@ import CareersSeventhPart from "../../components/CareersComponents/CareersSevent
 function Careers (){
 
 
-
+    const navigate=useNavigate()
     const routePath = useLocation();
     const onTop = () => {
         window.scrollTo(0, 0);
@@ -27,6 +27,14 @@ function Careers (){
     useEffect(() => {
         onTop()
     }, [routePath]);
+
+    const moveToTeamTestimonials =()=>{
+       navigate(`/team-testimonials`)
+    }
+
+    const moveToFAQ =()=>{
+        navigate(`/faq`)
+    }
 
 
     return(
@@ -38,7 +46,7 @@ function Careers (){
             <CareersFourthPart/>
             <CareersFifthPart/>
             <CareersSixthPart/>
-            <CareersSeventhPart/>
+            <CareersSeventhPart moveToTeamTestimonials={moveToTeamTestimonials} moveToFAQ={moveToFAQ}/>
             <Footer/>
         </>
     )

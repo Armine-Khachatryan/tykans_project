@@ -1,5 +1,4 @@
 import React from "react";
-import Careers2 from '../../../assets/images/careers/Careers2.png';
 import classes from './CareersSecondPart.module.css';
 import Button from "../../../UI/Button/Button";
 import YellowVint from "../../../assets/images/YellowVint.png";
@@ -33,7 +32,6 @@ function CareersSecondPage (){
                         <div>
                             <img  className={classes.orangeVint} src={OrangeVint}/>
                         </div>
-                        {/*<img src={Careers2}/>*/}
                     </div>
                 </div>
             </div>

@@ -17,6 +17,9 @@ import classes from './Footer.module.css';
 import {useNavigate} from "react-router-dom";
 
 
+
+
+
 function Footer() {
 
     const navigate=useNavigate()

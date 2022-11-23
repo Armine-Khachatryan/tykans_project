@@ -1,9 +1,9 @@
 import React from "react";
-import classes from './HomeInformation.module.css';
+import classes from './ServicesInformation.module.css';
 
 
 
-function HomeInformation() {
+function ServicesInformation() {
 
 
     return (
@@ -21,4 +21,4 @@ function HomeInformation() {
     )
 }
 
-export default HomeInformation;
+export default ServicesInformation;

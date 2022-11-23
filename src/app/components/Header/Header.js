@@ -10,6 +10,8 @@ function Header() {
     const {pathname} = useLocation();
     const navigate=useNavigate();
 
+
+
     return (
         <div className={classes.headerWhole}>
             <div className="container">
@@ -86,9 +88,9 @@ export default Header;
 //                 <img src={Logo} alt='logo'/>
 //             </div>
 //             <div className={classes.headerPart2}>
-//                 <div className={`${classes.headerPart} ${showYellow === "Services" && classes.activeYellow}`}
-//                      onClick={()=>{setShowYellow("Services");
-//                          navigate(`/Home`)}}>Services</div>
+//                 <div className={`${classes.headerPart} ${showYellow === "ServicesComponent" && classes.activeYellow}`}
+//                      onClick={()=>{setShowYellow("ServicesComponent");
+//                          navigate(`/ServicesComponent`)}}>ServicesComponent</div>
 //                 <div className={`${classes.headerPart} ${showYellow === "Life at Tykans" && classes.activeYellow}`}
 //                      onClick={()=>{setShowYellow("Life at Tykans");
 //                          navigate(`/life-at-tykans`)}}>Life at Tykans</div>

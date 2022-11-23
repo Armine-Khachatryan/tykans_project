@@ -1,5 +1,4 @@
 import React from "react";
-import classes from './AboutUsComponent.module.css';
 import Background1 from '../../../assets/images/aboutUs/Background1.png';
 
 

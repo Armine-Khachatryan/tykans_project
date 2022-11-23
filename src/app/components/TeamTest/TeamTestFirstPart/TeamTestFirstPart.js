@@ -7,7 +7,7 @@ function TeamTestFirstPart (props){
 
 return(
     <div className="part1BackImg" style={{ 'background-image': `url(${TeamTestFrame})`}}>
-        <div className="titleServices">{props?.teamInfo[0]?.attributes.title}</div>
+        <div className="titleServices">{props.teamInfo[0]?.title}</div>
     </div>
 )
 }

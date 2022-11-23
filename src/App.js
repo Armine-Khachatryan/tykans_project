@@ -4,7 +4,7 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
-import Home from "./app/pages/Home/Home";
+import Services from "./app/pages/Services/Services";
 import FAQ from "./app/pages/FAQ/FAQ";
 import Careers from "./app/pages/Careers/Careers";
 import LifeAtTykans from "./app/pages/LifeAtTykans/LifeAtTykans";
@@ -21,8 +21,8 @@ function App() {
   return (
       <BrowserRouter>
           <Routes>
-              <Route exact path="/" element={ <Home/>}/>
-              {/*<Route exact path="/home" element={ <Home/>}/>*/}
+              <Route exact path="/" element={ <Services/>}/>
+              {/*<Route exact path="/home" element={ <ServicesComponent/>}/>*/}
               <Route exact path="/life-at-tykans"  element={ <LifeAtTykans/>}/>
               <Route exact path="/team-testimonials"  element={ <TeamTestimonialsPage/>}/>
               <Route exact path="/careers"  element={ <Careers/>}/>

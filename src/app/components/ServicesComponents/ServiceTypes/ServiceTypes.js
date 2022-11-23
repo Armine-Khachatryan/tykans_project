@@ -9,7 +9,8 @@ import BlueBook from "../../../assets/images/bookIcons/BlueBook.png";
 
 function ServiceTypes(props) {
 
-    const services = props.servicesInfo.slice(2);
+
+    const services = props.servicesInfo?.slice(2);
     console.log(services, "cropped services")
 
 

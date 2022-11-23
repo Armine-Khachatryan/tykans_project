@@ -6,9 +6,9 @@ import {useNavigate} from "react-router-dom";
 
 
 
-function CareersSeventhPart(){
+function CareersSeventhPart(props){
 
-    const navigate=useNavigate
+
 
     return(
         <div className={classes.seventhWhole}>
@@ -20,7 +20,7 @@ function CareersSeventhPart(){
                     <div className={classes.seventhText}>Check out words from some of our
                         current employees about what
                         working here is like</div>
-                    <button className={classes.redBtn}>Team Testimonials</button>
+                    <button className={classes.redBtn} onClick={props.moveToTeamTestimonials}>Team Testimonials</button>
                 </div>
                 <div className={classes.seventhLeftRight}>
                     <div className={classes.seventhImgDiv}>
@@ -28,7 +28,7 @@ function CareersSeventhPart(){
                     </div>
                     <div className={classes.seventhText}>Questions about joining Tykans
                         or about the interview process?</div>
-                    <button className={classes.redBtn} onClick={()=>navigate(`/faq`)}>FAQ’s</button>
+                    <button className={classes.redBtn} onClick={props.moveToFAQ}>FAQ’s</button>
                 </div>
             </div>
         </div>

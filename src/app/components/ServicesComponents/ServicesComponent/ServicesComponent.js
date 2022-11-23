@@ -5,7 +5,7 @@ import Frame1 from '../../../assets/images/Frame1.png';
 
 
 
-function Services() {
+function ServicesComponent() {
 
 
     return(
@@ -18,4 +18,4 @@ function Services() {
 }
 
 
-export default Services;
+export default ServicesComponent;

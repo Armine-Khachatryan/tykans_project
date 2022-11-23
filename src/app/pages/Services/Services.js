@@ -3,8 +3,8 @@ import axios from "axios";
 import config from "../../config";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Services from "../../components/HomePageComponents/Services/Services";
-import classes from './Home.module.css';
+import ServicesComponent from "../../components/ServicesComponents/ServicesComponent/ServicesComponent";
+import classes from './Services.module.css';
 import Frame2 from "../../assets/images/Frame2.png";
 import CreateSmallCircle from '../../assets/images/smallCircles/Create-Small-Circle.png';
 import EducateSmallCircle from '../../assets/images/smallCircles/Educate-Small-Circle.png';
@@ -12,25 +12,24 @@ import MigrateSmallCircle from '../../assets/images/smallCircles/Migrate-Small-C
 import OperateSmallCircle from '../../assets/images/smallCircles/Operate-Small-Circle.png';
 import IntegrateSmallCircle from '../../assets/images/smallCircles/Integrate-Small-Circle.png';
 import AutomateSmallCircle from '../../assets/images/smallCircles/Automate-Small-Circle.png';
-import Migration from "../../components/HomePageComponents/Migration/Migration";
+import Migration from "../../components/ServicesComponents/Migration/Migration";
 import Button from "../../UI/Button/Button";
-import ServiceTypes from "../../components/HomePageComponents/ServiceTypes/ServiceTypes";
-import Create from "../../components/HomePageComponents/Create/Create";
-import Educate from "../../components/HomePageComponents/Educate/Educate";
-import Operate from "../../components/HomePageComponents/Operate/Operate";
-import Automate from "../../components/HomePageComponents/Automate/Automate";
-import Products from "../../components/HomePageComponents/Products/Products";
-import HomeInformation from "../../components/HomePageComponents/HomeInformation/HomeInformation";
-import InformationList from "../../components/HomePageComponents/InformationList/InformationList";
-import Partners from "../../components/HomePageComponents/Partners/Partners";
-import CustomerTest from "../../components/HomePageComponents/CustomerTest/CustomerTest";
+import ServiceTypes from "../../components/ServicesComponents/ServiceTypes/ServiceTypes";
+import Create from "../../components/ServicesComponents/Create/Create";
+import Educate from "../../components/ServicesComponents/Educate/Educate";
+import Operate from "../../components/ServicesComponents/Operate/Operate";
+import Automate from "../../components/ServicesComponents/Automate/Automate";
+import Products from "../../components/ServicesComponents/Products/Products";
+import ServicesInformation from "../../components/ServicesComponents/ServicesInformation/ServicesInformation";
+import InformationList from "../../components/ServicesComponents/InformationList/InformationList";
+import Partners from "../../components/ServicesComponents/Partners/Partners";
+import CustomerTest from "../../components/ServicesComponents/CustomerTest/CustomerTest";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
 
 
-
-function Home() {
+function Services (){
     const [servicesInfo,setServicesInfo]=useState([])
 
     console.log(servicesInfo, "servicesInfo")
@@ -70,7 +69,7 @@ function Home() {
     return(
         <>
             <Header/>
-            <Services/>
+            <ServicesComponent/>
             <div className={classes.backgroundBlue} style={{ 'background-image': `url(${Frame2})`}}>
                 <div className="container">
                     <div className="containerInside">
@@ -129,7 +128,7 @@ function Home() {
             {/*<Operate/>*/}
             {/*<Automate/>*/}
             <Products/>
-            <HomeInformation/>
+            <ServicesInformation/>
             <InformationList/>
             <Partners/>
             <CustomerTest/>
@@ -139,7 +138,7 @@ function Home() {
     )
 }
 
-export default Home;
+export default Services;
 
 
 
@@ -154,7 +153,7 @@ export default Home;
 // return(
 //         <>
 //             <Header/>
-//             <Services/>
+//             <ServicesComponent/>
 //             <div className={classes.backgroundBlue} style={{ 'background-image': `url(${Frame2})`}}>
 //                 <div className="container">
 //                     <div className="containerInside">
@@ -214,7 +213,7 @@ export default Home;
 //             <Operate/>
 //             <Automate/>
 //             <Products/>
-//             <HomeInformation/>
+//             <ServicesInformation/>
 //             <InformationList/>
 //             <Partners/>
 //             <CustomerTest/>
@@ -224,5 +223,5 @@ export default Home;
 //     )
 // }
 //
-// export default Home;
+// export default ServicesComponent;
 

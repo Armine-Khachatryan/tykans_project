@@ -16,6 +16,7 @@ function TeamTestimonialsPage () {
     const [teamInfo,setTeamInfo]=useState([])
     //     [
     //     {
+    //     {
     //         "key": "cpvdt5eUpE0rYp7a",
     //         "layout": "Content",
     //         "attributes": {
@@ -118,7 +119,7 @@ function TeamTestimonialsPage () {
         try {
             let response = await axios.get(`${config.baseUrl}api/pages/team-members`)
             console.log(response.data, "aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-            setTeamInfo(response.data);
+            setTeamInfo(response.data.content);
 
         } catch (error) {
             console.log(teamInfo)

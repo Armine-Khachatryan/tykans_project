@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import Light from '../../assets/images/aboutUs/Light.png';
 import Footer from "../../components/Footer/Footer";
 import classes from './AboutUs.module.css';
-import {useLocation} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 import Header from "../../components/Header/Header";
 import AboutUsComponent from "../../components/AboutUs/AboutUsComponent/AboutUsComponent";
 import AboutUsInfo from "../../components/AboutUs/AboutUsInfo/AboutUsInfo";
@@ -16,6 +16,8 @@ import NumbersData from "../../components/AboutUs/NumbersData/NumbersData";
 
 function AboutUs() {
 
+
+    const navigate=useNavigate()
     const routePath = useLocation();
     const onTop = () => {
         window.scrollTo(0, 0);
@@ -26,7 +28,9 @@ function AboutUs() {
     }, [routePath]);
 
 
-
+    const moveToTeamTestimonialsPage =()=>{
+        navigate(`/team-testimonials`)
+    }
     return(
 
         <>
@@ -83,7 +87,7 @@ function AboutUs() {
             <CoreValues/>
             <AboutUsInfo/>
             <Leaders/>
-            <NumbersData/>
+            <NumbersData moveToTeamTestimonialsPage={moveToTeamTestimonialsPage} />
             <Footer/>
         </>
 

@@ -5,7 +5,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import LetsTalk from "../../components/ContactUsComponent/LetsTalk/LetsTalk";
 import ContactUsBelowPart from "../../components/ContactUsComponent/ContactUsBelowPart/ContactUsBelowPart";
-import classes from './ContactUs.module.css';
+
 
 
 

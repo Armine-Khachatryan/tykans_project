@@ -1,11 +1,11 @@
 import React, {useEffect} from "react";
 import classes from './NumbersData.module.css';
-import {useLocation} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 import Button from "../../../UI/Button/Button";
 
 
 
-function NumbersData() {
+function NumbersData(props) {
 
     const routePath = useLocation();
     const onTop = () => {
@@ -15,6 +15,8 @@ function NumbersData() {
     useEffect(() => {
         onTop()
     }, [routePath]);
+
+
 
     const numberData=[
         {
@@ -79,7 +81,7 @@ function NumbersData() {
                 </div>
                 <div className={classes.btnsDivNumbers}>
                     <div className={classes.firstButton}>
-                        <Button color="#EAB531">Team Testimonials</Button>
+                        <Button color="#EAB531" OnClick={props.moveToTeamTestimonialsPage}>Team Testimonials</Button>
                     </div>
                     <Button color="#EAB531">Explore Careers</Button>
                 </div>
