@@ -59,9 +59,9 @@
     width: 115px;
     height: 115px;
     margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
     /*animation-direction: reverse;*/
 }
 @-moz-keyframes spin {
@@ -84,9 +84,9 @@
     width: 80px;
     height: 80px;
     margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
     animation-direction: reverse;
 }
 
@@ -97,9 +97,9 @@
     width:140px;
     height: 140px;
     margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
 }
 
 .redVint{
@@ -109,9 +109,9 @@
     width:115px;
     height: 115px;
     margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
 }
 
 .orangeSmallVint{
@@ -121,9 +121,9 @@
     width:80px;
     height: 80px;
     margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
     animation-direction: reverse;
 }
 
@@ -134,9 +134,9 @@
     width:140px;
     height: 140px;
     margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
     animation-direction: reverse;
 }
 

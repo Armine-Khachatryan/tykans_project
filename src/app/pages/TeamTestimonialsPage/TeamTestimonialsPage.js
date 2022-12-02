@@ -57,7 +57,7 @@ function TeamTestimonialsPage () {
     //     }
     // ])
 
-    console.log(teamInfo, "teamInfo")
+    console.log(teamInfo, "teamInfo response.data")
 
     const routePath = useLocation();
     const onTop = () => {
@@ -118,8 +118,8 @@ function TeamTestimonialsPage () {
     let getTeamData = async () => {
         try {
             let response = await axios.get(`${config.baseUrl}api/pages/team-members`)
-            console.log(response.data, "aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-            setTeamInfo(response.data.content);
+            console.log(response.data, "teamTestimonials");
+            setTeamInfo(response.data);
 
         } catch (error) {
             console.log(teamInfo)

@@ -5,7 +5,11 @@ import classes from './CareersThirdPart.module.css';
 
 
 
-function CareersThirdPage (){
+function CareersThirdPage (props){
+
+
+    // const resultCareersThirdPage = props?.careersInfo?.filter(item =>item.layout ==="InfoBlock")
+    // console.log(resultCareersThirdPage, "resultCareersThirdPage")
 
 
     return(

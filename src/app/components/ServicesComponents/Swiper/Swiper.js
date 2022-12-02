@@ -1,6 +1,8 @@
-import { Swiper,  SwiperSlide } from 'swiper/react';
+import { Swiper,  SwiperSlide} from 'swiper/react';
+import { Keyboard }  from 'swiper';
 // import {Zoom,Navigation, Pagination} from "swiper";
 import UpComa from '../../../assets/images/UpComa.png';
+import 'swiper/css/keyboard';
 import BelowComa from '../../../assets/images/BelowComa.png';
 import Avatar from '../../../assets/images/Avatar.png';
 import Star from '../../../assets/images/Star.png';
@@ -17,6 +19,8 @@ export default () => {
             slidesPerView={4}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
+            Keyboard={{ enabled: true }}
+            modules={[Keyboard]}
             // zoom={true}
             // navigation={true}
             // pagination={{

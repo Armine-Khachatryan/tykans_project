@@ -16,14 +16,14 @@ function Header() {
         <div className={classes.headerWhole}>
             <div className="container">
                 <div className={classes.header}>
-                    <div>
+                    <div className={classes.logo} onClick={()=>navigate(`/`)}>
                         <img src={Logo} alt='logo'/>
                     </div>
                     <div className={classes.headerPart2}>
                         <NavLink
-                            to="/"
+                            to="/services"
                             className={({isActive}) =>
-                                classes['nav_link' + (pathname === '/'  && isActive ? '_active' : '')]
+                                classes['nav_link' + (pathname === '/services'  && isActive ? '_active' : '')]
                             }
                         >
                             Services

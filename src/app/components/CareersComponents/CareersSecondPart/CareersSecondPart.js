@@ -1,26 +1,32 @@
 import React from "react";
-import classes from './CareersSecondPart.module.css';
 import Button from "../../../UI/Button/Button";
 import YellowVint from "../../../assets/images/YellowVint.png";
 import GreenVint from "../../../assets/images/GreenVint.png";
 import OrangeVint from "../../../assets/images/OrangeVint.png";
 
+import classes from './CareersSecondPart.module.css';
 
-function CareersSecondPage (){
+function CareersSecondPage (props) {
+
+
+    const resultCareersSecondPage = props?.careersInfo?.sections?.filter(item => (item.layout ==="Content"), 0)
+    console.log(resultCareersSecondPage, "************************")
+    // console.log(resultCareersSecondPage[0].attributes.title)
 
 
 
     return(
         <div className="container">
             <div className={classes.insideCareersdiv}>
-                <div className={classes.insideCareersLeft}>
-                    <div className={classes.insideCareersTitle}>Join our team and kickstart your future</div>
-                    <div className={classes.insideCareersText}>If you are looking for opportunities to grow and feel fulfilled,
-                        Tykans offers a dynamic and refreshing work experience. We go beyond “just a job”: we are
-                        people-oriented and are encouraged to follow our hearts. Explore openings below and find
-                        out how you can be part of our family!</div>
-                    <Button color='#92374D'>Explore open roles</Button>
-                </div>
+                { resultCareersSecondPage &&
+                    <div className={classes.insideCareersLeft}>
+                        <div className={classes.insideCareersTitle}>{resultCareersSecondPage[0]?.attributes?.title}</div>
+                        <div className={classes.insideCareersText}
+                             dangerouslySetInnerHTML={{ __html: resultCareersSecondPage[0]?.attributes?.description }}>
+                        </div>
+                        <Button color='#92374D'>Explore open roles</Button>
+                    </div>
+                }
                 <div className={classes.insideCareersRight}>
                     <div className={classes.careers2ImgDiv}>
                         <div>

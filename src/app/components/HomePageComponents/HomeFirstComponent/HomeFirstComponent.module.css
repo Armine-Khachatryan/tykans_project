@@ -1,0 +1,83 @@
+.helpWhole{
+    display: flex;
+    justify-content: space-between;
+    padding-top:48px;
+    padding-bottom:48px;
+}
+
+.helpLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.helpTitle{
+    width: 800px;
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #16145F;
+    margin-bottom: 48px;
+}
+
+.redTitle{
+    color:#92374D;
+}
+
+.helpText{
+    width: 1254px;
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 48px;
+}
+
+.helpBtn{
+    max-width: 360px;
+}
+
+.helpRight{
+    position: relative;
+}
+
+.redDiv{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    bottom: -130px;
+    right: 20px;
+    z-index: 8;
+    -webkit-animation:spin 16s linear infinite;
+    -moz-animation:spin 16s linear infinite;
+    animation:spin 16s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+.yellowDiv{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: 5px;
+    right: 330px;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
+    animation-direction: reverse;
+}
+

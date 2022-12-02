@@ -1,0 +1,78 @@
+.successTitle{
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 108px;
+    color: #16145F;
+    margin-bottom: 32px;
+}
+
+.successSubTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    color: #16145F;
+    margin-bottom: 64px;
+}
+
+.successStoriesWhole{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardSuccess{
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    margin-bottom: 80px;
+}
+
+.imgSuccessDiv{
+    width: 415px;
+    height: 350px;
+}
+
+.imgSuccess{
+    border-radius: 32px;
+}
+
+.titleSuccess{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #16145F;
+}
+
+.descriptionSuccess{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1F1F1F;
+}
+
+.successBtn{
+    width: 560px;
+    background-color:#B96118;
+    border-radius: 360px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-align: center;
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0 auto 100px;
+}

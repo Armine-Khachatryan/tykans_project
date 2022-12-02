@@ -1,0 +1,121 @@
+.ideasWhole{
+    background-color:#16145F;
+    padding-top:140px;
+    padding-bottom: 140px;
+    margin-bottom: 100px;
+}
+
+.ideas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.ideasLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.ideasImgDiv{
+    max-width:640px;
+    width: 100%;
+    height:640px;
+}
+
+.ideasImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ideasRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 882px;
+    width: 100%;
+}
+
+.ideasTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    color:#EAB531;
+    margin-bottom: 16px;
+}
+
+.ideasSubTitle{
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F9F9F9;
+    margin-bottom: 16px;
+    text-align: right;
+}
+
+.ideasText{
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F9F9F9;
+    margin-bottom:16px;
+    text-align: right;
+}
+
+
+.greenVintDiv{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: -80px;
+    left:150px;
+    z-index: 10;
+    -webkit-animation:spin 16s linear infinite;
+    -moz-animation:spin 16s linear infinite;
+    animation:spin 16s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+
+.yellowVintDiv{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    bottom: -60px;
+    left:0;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
+    animation-direction: reverse;
+}
+
+.orangeVintDiv{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    bottom: -230px;
+    left:60px;
+    z-index: 10;
+    -webkit-animation:spin 16s linear infinite;
+    -moz-animation:spin 16s linear infinite;
+    animation:spin 16s linear infinite;
+}

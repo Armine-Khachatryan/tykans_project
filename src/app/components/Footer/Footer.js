@@ -69,7 +69,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className={classes.footer2}>
-                            <div className={classes.footerTitle}>Contact Us</div>
+                            <div className={classes.footerTitle} onClick={()=>navigate(`/contact-us`)}>Contact Us</div>
                             <div className={classes.footerContactsDiv}>
                                 <img src={Chat}/>
                                 <div className={classes.footerContact}>Chat</div>
@@ -88,13 +88,13 @@ function Footer() {
                             </div>
                         </div>
                         <div className={classes.footer2}>
-                            <div className={classes.footerTitle}>Services</div>
-                            <div className={classes.footerInfo}>Life at Tykans</div>
-                            <div className={classes.footerInfo}>About Us</div>
+                            <div className={classes.footerInfo} onClick={()=>navigate(`/services`)}>Services</div>
+                            <div className={classes.footerInfo} onClick={()=>navigate(`/life-at-tykans`)}>Life at Tykans</div>
+                            <div className={classes.footerInfo} onClick={()=>navigate(`/about-us`)}>About Us</div>
                             <div className={classes.footerInfo} onClick={()=>navigate(`/faq`)}>FAQs</div>
-                            <div className={classes.footerInfo}>Customer Reviews</div>
-                            <div className={classes.footerInfo}>Careers</div>
-                            <div className={classes.footerInfo}>Staff Testimonials</div>
+                            <div className={classes.footerInfo} onClick={()=>navigate(`/success-stories`)}>Success Stories</div>
+                            <div className={classes.footerInfo} onClick={()=>navigate(`/careers`)}>Careers</div>
+                            <div className={classes.footerInfo} onClick={()=>navigate(`/team-testimonials`)}>Team Testimonials</div>
                         </div>
                         <div className={classes.footerImg}>
                             <div>

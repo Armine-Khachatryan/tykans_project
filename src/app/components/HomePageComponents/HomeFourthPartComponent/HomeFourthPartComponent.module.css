@@ -1,0 +1,116 @@
+.fourthPartWhole{
+    background-color:#16145F;
+    height: 707px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.fourthPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthPartLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthPartTitle{
+    margin-bottom: 16px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    color: #EAB531;
+}
+
+.fourthPartSubTitle{
+    max-width: 882px;
+    width: 100%;
+    font-family:Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F9F9F9;
+    margin-bottom: 16px;
+}
+
+.fourthPartText {
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F9F9F9;
+    margin-bottom: 48px;
+}
+.btnDiv{
+    max-width: 415px;
+    width: 100%;
+}
+
+.fourthPartRight{
+    max-width: 705px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.homeImg1Div{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.homeImg1{
+    border-radius: 48px;
+    height: 100%;
+}
+
+.homeImg2Div{
+    width: 415px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.homeImg2{
+    border-radius: 48px;
+}
+
+.homeImg3Div{
+    width: 705px;
+    height: 250px;
+}
+
+.homeImg3{
+    border-radius: 48px;
+}
+
+.yellowVintDiv{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    top: -150px;
+    right: 20px;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
+    animation-direction: reverse;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}

@@ -1,0 +1,124 @@
+.achieveGoalsWhole{
+    background-color:#16145F;
+    height: 707px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.achieveGoals{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.goalsLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.goalsTitle{
+    margin-bottom: 16px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    color: #EAB531;
+    display: flex;
+    align-items: center;
+}
+
+.heartDiv{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+}
+
+.goalsSubTitle{
+    max-width: 882px;
+    width: 100%;
+    font-family:Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F9F9F9;
+    margin-bottom: 24px;
+}
+
+.goalText {
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F9F9F9;
+    margin-bottom: 48px;
+    max-width: 780px;
+    width: 100%;
+}
+.btnDiv{
+    max-width: 415px;
+    width: 100%;
+}
+
+
+.goalPicDiv{
+    width: 415px;
+    height: 500px;
+}
+
+.goalPic{
+    border-radius: 48px;
+}
+
+.greenVintDiv{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: -100px;
+    right: 310px;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+
+.redVintDiv{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    bottom: -120px;
+    right: 170px;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
+    animation-direction: reverse;
+}
+
+.orangeVintDiv{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    bottom: -140px;
+    right: 10px;
+    -webkit-animation:spin 14s linear infinite;
+    -moz-animation:spin 14s linear infinite;
+    animation:spin 14s linear infinite;
+}
